@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: '/Resume',
-    assetPrefix: '/your-repo-name/',
+    assetPrefix: '/Resume/',
     trailingSlash: true,
 };
 
