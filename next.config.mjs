@@ -4,6 +4,7 @@ const nextConfig = {
     basePath: '/Resume',
     assetPrefix: '/Resume/',
     trailingSlash: true,
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/Resume/' : '',
     //
 };
 
