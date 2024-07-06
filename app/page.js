@@ -38,8 +38,8 @@ export default function Home() {
           priority
         />
         <a>
-          Name: Joshua Jonghan kim
-          Age: 
+          Name: Joshua Jonghan kim<br />
+          Age: 29<br />          
         </a>
       </div>
 
