@@ -2,8 +2,106 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className="border border-red-600 min-h-screen w-screen flex flex-col items-center justify-between p-20">
+      {/* photo  */}
+      <div className="border border-red-600">
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="https://raw.githubusercontent.com/joshuajonghankim/Resume/main/public/selfie.jpg"
+          alt="selfie"
+          width={180}
+          height={37}
+          priority
+        />
+      </div>
+
+      {/* name and introduction */}
+      <div className="border border-red-600">
+        <div className="border border-red-600 text-4xl">
+          Joshua Jonghan Kim
+        </div>
+        <div className="border border-red-600 mt-2 text-1xl">
+          Introduction
+        </div>
+      </div>
+
+      {/* body */}
+      <div className="border border-red-600 w-full flex flex-row">
+        {/* left body */}
+        <div className="border border-red-600 w-1/5">
+          <div className="border border-red-600">
+            <h1 className="font-bold">
+              Contact
+            </h1>
+            <p className="text-sm">
+              <br />
+              347-909-0683
+            </p>
+          </div>
+        </div>
+
+        {/* right body */}
+        <div className="border border-red-600 w-4/5">
+          <div className="border border-red-600">
+            <h1 className="font-bold">
+              Education
+            </h1>
+            <p className="text-sm">
+              <br />
+              2015 - 2017 :<br />
+              Kyungpook National University in South Korea<br />
+              Energy Engineering (transferred to CS major)<br />
+              <br />
+              2019 - 2024 :<br />
+              City University of New York, Queens College<br />
+              Computer Science, BA
+            </p>
+          </div>
+
+          <div className="border border-red-600">
+            <h1 className="font-bold">
+              Experiences
+            </h1>
+            <p className="text-sm">
+              <br />
+              2017 - 2019 :<br />
+              F-15K Assistant Mechanic in the South Korean Air Force
+            </p>
+          </div>
+
+          <div className="border border-red-600">
+            <h1 className="font-bold">
+              Skills
+            </h1>
+            <p className="text-sm">
+              <br />
+              JAVA<br />
+              C++<br />
+              Python<br />
+            </p>
+          </div>
+
+          <div className="border border-red-600">
+            <h1 className="font-bold">
+              Languages
+            </h1>
+            <p className="text-sm">
+              <br />
+              English<br />
+              Korean<br />
+              Japanese - intermediate<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Joshua Jonghan Kim's resume&nbsp;
         </p>
@@ -118,7 +216,10 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
+
+      <footer className="">
+      </footer>
     </main>
   );
 }
