@@ -10,6 +10,9 @@ const nextConfig = {
     assetPrefix: '/Resume/',
     trailingSlash: true,   */  
     //
+    images: {
+      domains: ['raw.githubusercontent.com'], // 외부 도메인 추가
+  },
 };
 
 export default nextConfig;
