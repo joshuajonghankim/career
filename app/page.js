@@ -36,6 +36,8 @@ export default function Home() {
             347-909-0683
             <br />
             joshuajonghankim@gmail.com
+            <br />
+            (prefer to text or email)
           </p>
         </div>
 
