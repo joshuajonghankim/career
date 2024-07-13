@@ -6,7 +6,7 @@ export default function Home() {
       {/* photo  */}
       <div className="border border-gray-400">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          className="relative"
           src="https://raw.githubusercontent.com/joshuajonghankim/Resume/main/public/selfie.jpg"
           alt="selfie"
           width={180}
