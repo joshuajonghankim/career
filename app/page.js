@@ -65,17 +65,6 @@ export default function Home() {
 
         <div className="border border-gray-400">
           <h1 className="font-bold">
-            Experiences
-          </h1>
-          <p className="text-sm">
-            <br />
-            2017 - 2019 :<br />
-            F-15K Assistant Mechanic in the South Korean Air Force
-          </p>
-        </div>
-
-        <div className="border border-gray-400">
-          <h1 className="font-bold">
             Skills
           </h1>
           <p className="text-sm">
@@ -95,7 +84,6 @@ export default function Home() {
             <br />
             English<br />
             Korean<br />
-            Japanese - intermediate<br />
           </p>
         </div>
       </div>
