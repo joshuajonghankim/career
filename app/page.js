@@ -39,7 +39,7 @@ export default function Home() {
             <br />
             joshuajonghankim@gmail.com
             <br />
-            (prefer to text or email)
+            (prefer to email and text)
           </p>
         </div>
 
