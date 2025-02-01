@@ -45,17 +45,21 @@ export default function Home() {
 
         <div className="border border-gray-400">
           <h1 className="font-bold">
-            Education
+            Education & Careers
           </h1>
           <p className="text-sm">
             <br />
             2015 - 2017 :<br />
             Kyungpook National University in South Korea<br />
-            Energy Engineering (transferred to CS major)<br />
+            Energy Engineering<br />
+            <br />
+            2017 - 2019 :<br />
+            South Korean Air Force<br />
+            F-15K Assistant Mechanic<br />
             <br />
             2019 - 2024 :<br />
             City University of New York, Queens College<br />
-            Computer Science, BA
+            Computer Science, BA degree
           </p>
         </div>
 
