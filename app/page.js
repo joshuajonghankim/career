@@ -78,8 +78,8 @@ export default function Home() {
             <br />
             Javascript and Tailwind CSS (This webpage is built using Next.js and Tailwind CSS)<br />
             JAVA<br />
-            C++<br />
             Python<br />
+            C++<br />            
           </p>
         </div>
 
