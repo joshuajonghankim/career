@@ -77,7 +77,7 @@ export default function Home() {
           <p className="text-sm">
             <br />
             Javascript and Tailwind CSS (This webpage is built using Next.js and Tailwind CSS)<br />
-            JAVA<br />
+            Java<br />
             Python<br />
             C++<br />            
           </p>
