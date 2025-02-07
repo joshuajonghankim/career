@@ -1,6 +1,8 @@
 //npm run dev
+//border border-slate-950 
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,8 +10,8 @@ export default function Home() {
 
       <header className="absolute top-0 left-0 right-0 flex justify-center p-4 bg-white dark:bg-black z-10">
         <nav className="flex gap-8 text-sm font-semibold">
-          <a href="#About" className="hover:underline">About</a>
-          <a href="#Portfolio" className="hover:underline">Portfolio</a>
+          <Link href="/" className="hover:underline">About</Link>
+          <Link href="/portfolio" className="hover:underline">Portfolio</Link>
         </nav>
       </header>
 
@@ -60,6 +62,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
