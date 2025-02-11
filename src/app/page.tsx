@@ -14,7 +14,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/face.jpg"
-          alt="Next.js logo"
+          alt="face"
           width={300}
           height={38}
           priority
