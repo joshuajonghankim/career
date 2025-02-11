@@ -22,7 +22,7 @@ export default function Home() {
 
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            여기 이력서
+            Joshua Jonghan Kim
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
