@@ -1,4 +1,5 @@
-import Link from "next/link";
+"use client";
+
 import Nav_Bar from "../../components/Nav_Bar";
 
 export default function Portfolio() {
