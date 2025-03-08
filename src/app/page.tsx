@@ -21,7 +21,6 @@ export default function Home() {
           height={38}
         />
 
-
         <ol className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 font-bold text-lg">Joshua Jonghan Kim</li>
           <li className="text-gray-700">Software Engineer | Web Developer</li>
