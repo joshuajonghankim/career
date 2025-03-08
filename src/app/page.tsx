@@ -15,11 +15,12 @@ export default function Home() {
       <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <img
           className="mx-auto dark:invert"
-          src="/face.jpg"
+          src="https://raw.githubusercontent.com/joshuajonghankim/career/refs/heads/main/public/face.jpg"
           alt="Joshua Jonghan Kim"
-          width={250}
-          height={30}
+          width={300}
+          height={38}
         />
+
 
         <ol className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 font-bold text-lg">Joshua Jonghan Kim</li>
