@@ -17,20 +17,20 @@ export default function Portfolio() {
       <Nav_Bar />
 
       <h1 className="text-3xl font-bold mb-4">Portfolio Page</h1>
-      <p className="text-lg text-gray-600 mb-6">Welcome to my portfolio.</p>
+      <p className="text-lg text-gray-600 mb-6">Projects I've experienced</p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {portfolioItems.map((item, index) => (
           <Link key={index} href={item.link}>
-            <div className="w-32 h-32 flex items-center justify-center bg-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300">
+            <div className="w-32 h-32 flex items-center justify-center bg-gray-400 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-gray-600 transition duration-300">
               {item.title}
             </div>
           </Link>
         ))}
       </div>
 
-      <Link href="/" className="mt-6 text-blue-500 hover:underline">
-        Go Back to About
+      <Link href="/" className="mt-6 hover:underline">
+        Go Back Home
       </Link>
     </div>
   );

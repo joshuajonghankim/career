@@ -8,64 +8,64 @@ import Nav_Bar from "./components/Nav_Bar";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
 
       <Nav_Bar />
 
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <img
-          className="dark:invert"
+          className="mx-auto dark:invert"
           src="/face.jpg"
-          alt="face"
-          width={300}
-          height={38}
+          alt="Joshua Jonghan Kim"
+          width={250}
+          height={30}
         />
 
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Joshua Jonghan Kim
-          </li>
-          <li>Save and see your changes instantly.</li>
+        <ol className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          <li className="mb-2 font-bold text-lg">Joshua Jonghan Kim</li>
+          <li className="text-gray-700">Software Engineer | Web Developer</li>
         </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
+          I am a software engineer with a passion for building innovative and impactful solutions.
+          With experience in full-stack web development, data analysis, and machine learning,
+          I have contributed to various projects ranging from scalable web applications to AI-driven insights.
+          My expertise includes JavaScript (React, Node.js), Python (Django, Flask, Pandas), and cloud technologies (AWS, Firebase).
+          I am always eager to learn new skills and technologies, striving to bridge the gap between technology and real-world applications.
+        </p>
+
+        <section className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
+          <h2 className="text-lg font-semibold">Skills & Technologies</h2>
+          <ul className="list-disc list-inside">
+            <li>Frontend: React, Next.js, TypeScript, Tailwind CSS</li>
+            <li>Backend: Node.js, Express, Django, Flask</li>
+            <li>Database: PostgreSQL, MongoDB, Firebase</li>
+            <li>Cloud & DevOps: AWS (Lambda, S3), Docker, CI/CD</li>
+            <li>Data Science: Pandas, NumPy, Scikit-learn, TensorFlow</li>
+          </ul>
+        </section>
+
+        <section className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
+          <h2 className="text-lg font-semibold">Experience</h2>
+          <p><strong>Software Engineer</strong> - XYZ Tech (2022 - Present)</p>
+          <ul className="list-disc list-inside">
+            <li>Developed and maintained scalable web applications using React and Node.js.</li>
+            <li>Integrated AI-driven analytics to enhance user experience and decision-making.</li>
+            <li>Led a team of developers to implement a CI/CD pipeline, improving deployment efficiency.</li>
+          </ul>
+        </section>
       </main>
+
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:joshuajonghankim@gmail.com"
         >
           <Image
             aria-hidden
             src="/file.svg"
-            alt="File icon"
+            alt="Email icon"
             width={16}
             height={16}
           />
@@ -73,14 +73,12 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="sms:+13479090683"
         >
           <Image
             aria-hidden
             src="/window.svg"
-            alt="Window icon"
+            alt="Phone icon"
             width={16}
             height={16}
           />
@@ -88,14 +86,14 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://github.com/joshuajonghankim"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
             src="/globe.svg"
-            alt="Globe icon"
+            alt="Github icon"
             width={16}
             height={16}
           />
