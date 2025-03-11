@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <img
-          className="mx-auto dark:invert"
+          className="mx-auto"
           src="https://raw.githubusercontent.com/joshuajonghankim/career/refs/heads/main/public/face.jpg"
           alt="Joshua Jonghan Kim"
           width={300}
@@ -55,7 +55,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
