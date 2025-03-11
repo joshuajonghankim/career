@@ -13,12 +13,12 @@ export default function Home() {
       <Nav_Bar />
 
       <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <img
+        <Image
           className="mx-auto"
           src="https://raw.githubusercontent.com/joshuajonghankim/career/refs/heads/main/public/face.jpg"
           alt="Joshua Jonghan Kim"
           width={300}
-          height={38}
+          height={300}
         />
 
         <ol className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
@@ -65,8 +65,8 @@ export default function Home() {
             aria-hidden
             src="/file.svg"
             alt="Email icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
           joshuajonghankim@gmail.com
         </a>
@@ -78,8 +78,8 @@ export default function Home() {
             aria-hidden
             src="/window.svg"
             alt="Phone icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
           +1 347-909-0683
         </a>
@@ -91,10 +91,10 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
             alt="Github icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
           Github Page
         </a>
