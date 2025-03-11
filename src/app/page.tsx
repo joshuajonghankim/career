@@ -13,6 +13,7 @@ export default function Home() {
       <Nav_Bar />
 
       <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
         <Image
           className="mx-auto"
           src="https://raw.githubusercontent.com/joshuajonghankim/career/refs/heads/main/public/face.jpg"
@@ -61,13 +62,10 @@ export default function Home() {
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:joshuajonghankim@gmail.com"
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="Email icon"
-            width={30}
-            height={30}
-          />
+          <span className="material-symbols-outlined" aria-hidden="true">
+            mail
+          </span>
+
           joshuajonghankim@gmail.com
         </a>
         <a
@@ -77,16 +75,6 @@ export default function Home() {
           <span className="material-symbols-outlined" aria-hidden="true">
             phone
           </span>
-          +1 347-909-0683
-
-
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Phone icon"
-            width={30}
-            height={30}
-          />
           +1 347-909-0683
         </a>
         <a

@@ -22,16 +22,12 @@ export default function Portfolio() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {portfolioItems.map((item, index) => (
           <Link key={index} href={item.link}>
-            <div className="w-32 h-32 flex items-center justify-center bg-gray-400 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-gray-600 transition duration-300">
+            <div className="w-64 h-64 flex items-center justify-center bg-gray-400 text-white text-3xl font-semibold rounded-lg shadow-md hover:bg-gray-600 transition duration-300">
               {item.title}
             </div>
           </Link>
         ))}
       </div>
-
-      <Link href="/" className="mt-6 hover:underline">
-        Go Back Home
-      </Link>
     </div>
   );
 }
