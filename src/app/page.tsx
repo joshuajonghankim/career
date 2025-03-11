@@ -74,6 +74,12 @@ export default function Home() {
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="sms:+13479090683"
         >
+          <span className="material-symbols-outlined" aria-hidden="true">
+            phone
+          </span>
+          +1 347-909-0683
+
+
           <Image
             aria-hidden
             src="/window.svg"
