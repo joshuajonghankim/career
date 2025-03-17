@@ -15,19 +15,19 @@ export default function Home() {
       <main className="self-start flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
         <Image
-          className="mx-auto"
+          className="mx-auto rounded-full shadow-lg"
           src="https://raw.githubusercontent.com/joshuajonghankim/career/refs/heads/main/public/face.jpg"
-          alt="Joshua Jonghan Kim"
+          alt="Portrait of Joshua Jonghan Kim"
           width={300}
           height={300}
         />
 
-        <ol className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 font-bold text-lg">Joshua Jonghan Kim</li>
+        <ol className="text-center md:text-left text-gray-900">
+          <li className="mb-2 font-bold text-xl">Joshua Jonghan Kim</li>
           <li className="text-gray-700">Software Engineer | Web Developer</li>
         </ol>
 
-        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
+        <p className="text-sm text-center md:text-left text-slate-800 leading-relaxed">
           I am a software engineer with a passion for building innovative and impactful solutions.
           With experience in full-stack web development, data analysis, and machine learning,
           I have contributed to various projects ranging from scalable web applications to AI-driven insights.
@@ -35,9 +35,9 @@ export default function Home() {
           I am always eager to learn new skills and technologies, striving to bridge the gap between technology and real-world applications.
         </p>
 
-        <section className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
-          <h2 className="text-lg font-semibold">Skills & Technologies</h2>
-          <ul className="list-disc list-inside">
+        <section className="text-sm text-center md:text-left text-slate-800">
+          <h2 className="text-lg font-semibold mb-2">Skills & Technologies</h2>
+          <ul className="list-disc list-inside space-y-1">
             <li>Frontend: React, Next.js, TypeScript, Tailwind CSS</li>
             <li>Backend: Node.js, Express, Django, Flask</li>
             <li>Database: PostgreSQL, MongoDB, Firebase</li>
@@ -46,10 +46,10 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-gray-800">
-          <h2 className="text-lg font-semibold">Experience</h2>
+        <section className="text-sm text-center md:text-left text-slate-800">
+          <h2 className="text-lg font-semibold mb-2">Experience</h2>
           <p><strong>Software Engineer</strong> - XYZ Tech (2022 - Present)</p>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside space-y-1">
             <li>Developed and maintained scalable web applications using React and Node.js.</li>
             <li>Integrated AI-driven analytics to enhance user experience and decision-making.</li>
             <li>Led a team of developers to implement a CI/CD pipeline, improving deployment efficiency.</li>
